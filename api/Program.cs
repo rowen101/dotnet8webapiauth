@@ -7,9 +7,13 @@ using Microsoft.IdentityModel.JsonWebTokens;
 using api.Data;
 using Microsoft.Extensions.DependencyInjection;
 using api.Interfaces;
-using api.Repository;
+
 using api.Models;
 using Microsoft.IdentityModel.Tokens;
+using api.Service;
+using Microsoft.CodeAnalysis.Options;
+using Microsoft.OpenApi.Models;
+using api.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
     
@@ -18,6 +22,39 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddControllers().AddNewtonsoftJson(options =>
+{
+    options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
+});
+
+builder.Services.AddSwaggerGen(option =>
+{
+    option.SwaggerDoc("v1", new OpenApiInfo { Title = "Api", Version = "v1" });
+    option.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+    {
+        In = ParameterLocation.Header,
+        Description = "Please enter a valid token",
+        Name = "Authorization",
+        Type = SecuritySchemeType.Http,
+        BearerFormat = "JWT",
+        Scheme = "Bearer"
+    });
+    option.AddSecurityRequirement(new OpenApiSecurityRequirement
+{
+{
+new OpenApiSecurityScheme
+{
+    Reference = new OpenApiReference
+    {
+        Type=ReferenceType.SecurityScheme,
+        Id="Bearer"
+    }
+},
+    new string[]{}
+}
+});
+});
 
 
 builder.Services.AddDbContext<AppDbContext>(options =>
@@ -58,6 +95,8 @@ builder.Services.AddAuthentication(options => {
 );
 
 builder.Services.AddScoped<IStockRepository,StockRepository>();
+builder.Services.AddScoped<ICommentRepository, CommentRepository>();
+builder.Services.AddScoped<ITokenService, TokenService>();
 var app = builder.Build();
 
 

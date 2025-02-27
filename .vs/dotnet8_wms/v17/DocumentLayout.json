@@ -1,10 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\growe\\OneDrive\\Desktop\\New folder\\dotnet8_wms\\",
+  "WorkspaceRootPath": "C:\\Users\\growe\\OneDrive\\Desktop\\dotnetcore\\dotnet8webapiauth\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|api\\api.csproj|c:\\users\\growe\\onedrive\\desktop\\new folder\\dotnet8_wms\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|api\\api.csproj|c:\\users\\growe\\onedrive\\desktop\\dotnetcore\\dotnet8webapiauth\\api\\controller\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|api\\api.csproj|solutionrelative:api\\controller\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|api\\api.csproj|c:\\users\\growe\\onedrive\\desktop\\dotnetcore\\dotnet8webapiauth\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|api\\api.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|api\\api.csproj|c:\\users\\growe\\onedrive\\desktop\\dotnetcore\\dotnet8webapiauth\\api\\repository\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|api\\api.csproj|solutionrelative:api\\repository\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|api\\api.csproj|c:\\users\\growe\\onedrive\\desktop\\dotnetcore\\dotnet8webapiauth\\api\\repository\\stockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|api\\api.csproj|solutionrelative:api\\repository\\stockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|api\\api.csproj|c:\\users\\growe\\onedrive\\desktop\\dotnetcore\\dotnet8webapiauth\\api\\mappers\\commentmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|api\\api.csproj|solutionrelative:api\\mappers\\commentmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|api\\api.csproj|c:\\users\\growe\\onedrive\\desktop\\dotnetcore\\dotnet8webapiauth\\api\\interfaces\\istockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|api\\api.csproj|solutionrelative:api\\interfaces\\istockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|api\\api.csproj|c:\\users\\growe\\onedrive\\desktop\\dotnetcore\\dotnet8webapiauth\\api\\dtos\\comment\\commentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|api\\api.csproj|solutionrelative:api\\dtos\\comment\\commentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|api\\api.csproj|c:\\users\\growe\\onedrive\\desktop\\dotnetcore\\dotnet8webapiauth\\api\\controller\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|api\\api.csproj|solutionrelative:api\\controller\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|api\\api.csproj|c:\\users\\growe\\onedrive\\desktop\\dotnetcore\\dotnet8webapiauth\\api\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|api\\api.csproj|solutionrelative:api\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +46,123 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CommentDto.cs",
+              "DocumentMoniker": "C:\\Users\\growe\\OneDrive\\Desktop\\dotnetcore\\dotnet8webapiauth\\api\\Dtos\\Comment\\CommentDto.cs",
+              "RelativeDocumentMoniker": "api\\Dtos\\Comment\\CommentDto.cs",
+              "ToolTip": "C:\\Users\\growe\\OneDrive\\Desktop\\dotnetcore\\dotnet8webapiauth\\api\\Dtos\\Comment\\CommentDto.cs",
+              "RelativeToolTip": "api\\Dtos\\Comment\\CommentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T06:57:07.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StockRepository.cs",
+              "DocumentMoniker": "C:\\Users\\growe\\OneDrive\\Desktop\\dotnetcore\\dotnet8webapiauth\\api\\Repository\\StockRepository.cs",
+              "RelativeDocumentMoniker": "api\\Repository\\StockRepository.cs",
+              "ToolTip": "C:\\Users\\growe\\OneDrive\\Desktop\\dotnetcore\\dotnet8webapiauth\\api\\Repository\\StockRepository.cs",
+              "RelativeToolTip": "api\\Repository\\StockRepository.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAIA3wCQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T06:41:25.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StockController.cs",
+              "DocumentMoniker": "C:\\Users\\growe\\OneDrive\\Desktop\\dotnetcore\\dotnet8webapiauth\\api\\Controller\\StockController.cs",
+              "RelativeDocumentMoniker": "api\\Controller\\StockController.cs",
+              "ToolTip": "C:\\Users\\growe\\OneDrive\\Desktop\\dotnetcore\\dotnet8webapiauth\\api\\Controller\\StockController.cs",
+              "RelativeToolTip": "api\\Controller\\StockController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAkwFIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T06:39:40.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CommentController.cs",
+              "DocumentMoniker": "C:\\Users\\growe\\OneDrive\\Desktop\\dotnetcore\\dotnet8webapiauth\\api\\Controller\\CommentController.cs",
+              "RelativeDocumentMoniker": "api\\Controller\\CommentController.cs",
+              "ToolTip": "C:\\Users\\growe\\OneDrive\\Desktop\\dotnetcore\\dotnet8webapiauth\\api\\Controller\\CommentController.cs",
+              "RelativeToolTip": "api\\Controller\\CommentController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAIwCoAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T05:59:08.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IStockRepository.cs",
+              "DocumentMoniker": "C:\\Users\\growe\\OneDrive\\Desktop\\dotnetcore\\dotnet8webapiauth\\api\\Interfaces\\IStockRepository.cs",
+              "RelativeDocumentMoniker": "api\\Interfaces\\IStockRepository.cs",
+              "ToolTip": "C:\\Users\\growe\\OneDrive\\Desktop\\dotnetcore\\dotnet8webapiauth\\api\\Interfaces\\IStockRepository.cs",
+              "RelativeToolTip": "api\\Interfaces\\IStockRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T06:41:38.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CommentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\growe\\OneDrive\\Desktop\\dotnetcore\\dotnet8webapiauth\\api\\Repository\\CommentRepository.cs",
+              "RelativeDocumentMoniker": "api\\Repository\\CommentRepository.cs",
+              "ToolTip": "C:\\Users\\growe\\OneDrive\\Desktop\\dotnetcore\\dotnet8webapiauth\\api\\Repository\\CommentRepository.cs",
+              "RelativeToolTip": "api\\Repository\\CommentRepository.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAmwCAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T05:36:36.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\growe\\OneDrive\\Desktop\\New folder\\dotnet8_wms\\api\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\growe\\OneDrive\\Desktop\\dotnetcore\\dotnet8webapiauth\\api\\Program.cs",
               "RelativeDocumentMoniker": "api\\Program.cs",
-              "ToolTip": "C:\\Users\\growe\\OneDrive\\Desktop\\New folder\\dotnet8_wms\\api\\Program.cs*",
-              "RelativeToolTip": "api\\Program.cs*",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\growe\\OneDrive\\Desktop\\dotnetcore\\dotnet8webapiauth\\api\\Program.cs",
+              "RelativeToolTip": "api\\Program.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAAAGAAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-24T08:39:45.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CommentMapper.cs",
+              "DocumentMoniker": "C:\\Users\\growe\\OneDrive\\Desktop\\dotnetcore\\dotnet8webapiauth\\api\\Mappers\\CommentMapper.cs",
+              "RelativeDocumentMoniker": "api\\Mappers\\CommentMapper.cs",
+              "ToolTip": "C:\\Users\\growe\\OneDrive\\Desktop\\dotnetcore\\dotnet8webapiauth\\api\\Mappers\\CommentMapper.cs",
+              "RelativeToolTip": "api\\Mappers\\CommentMapper.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T07:06:21.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "C:\\Users\\growe\\OneDrive\\Desktop\\dotnetcore\\dotnet8webapiauth\\api\\Models\\Comment.cs",
+              "RelativeDocumentMoniker": "api\\Models\\Comment.cs",
+              "ToolTip": "C:\\Users\\growe\\OneDrive\\Desktop\\dotnetcore\\dotnet8webapiauth\\api\\Models\\Comment.cs",
+              "RelativeToolTip": "api\\Models\\Comment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T06:38:21.458Z",
               "EditorCaption": ""
             }
           ]
